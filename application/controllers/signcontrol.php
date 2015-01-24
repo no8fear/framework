@@ -1,9 +1,7 @@
-<?php 
+<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-	class signup extends CI_controller{
-		public function index(){
-			$this->load->view('sign');
-		}
+class Signcontrol extends CI_controller{
+	public function index(){
+		$this->load->view('sign');
 	}
-
-?>
+}
