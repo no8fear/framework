@@ -38,7 +38,7 @@
 |
 */
 
-$route['signcontrol'] = "welcome";
+$route['default_controller'] = "signcontrol";
 $route['404_override'] = '';
 
 
